@@ -1,0 +1,150 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	margin:0px;
+	padding:0px;
+}
+body {
+    background: url("images/sunset.png");
+    background-repeat:no-repeat;
+	font-family: 'Raleway', sans-serif;
+	font-size:20px;	
+    height:800px;
+}
+
+header {
+    font-family: 'Give You Glory', cursive;
+    
+    text-align: center;
+    margin: 10% auto;
+    width: 600px;
+    font-size:50px;
+}
+
+article {
+    
+    text-align: center;
+    width:200px;
+    height:50px;
+    padding: 2%;
+    margin: 2% auto;
+    margin-top: -10%;
+    
+}
+
+section {
+    float:left;
+    padding: 1%;
+    width: 250px;
+    margin-left:2%   
+}
+
+#footer{
+   
+    margin-left:30%;
+    margin-top:10%;
+    float:left;
+    color:white;
+}
+
+a footer{
+    color:white;
+}
+
+a {
+    color:black;
+    text-decoration: none;
+}
+
+a:hover {
+    color:white;
+    
+}
+ 
+
+#soulTitle, #spiritTitle, #bodyTitle, #mindTitle {
+      font-family: 'Give You Glory', cursive;
+    font-size:30px;
+}
+
+section#soul{
+
+background-color:#c3d3e7;
+}
+
+section#spirit{
+
+background-color: #f2d8b9;
+}
+
+section#body{
+
+background-color: #ffe36d;
+}
+
+section#mind{
+
+background-color: #c4b4df;
+}
+
+.tip, .tip2, .tip3, .tip4 {
+    background-image: url("images/speechbubble.png");
+position:relative;
+margin-top:10px;
+margin-left: 15px;
+  
+    background-repeat:no-repeat;
+    width: 160px;
+    height: 112px;
+    overflow:hidden;
+}
+
+.tip p, .tip2, .tip3, .tip4 p{
+    color: black;
+   margin-top: 2px;
+    margin-left:auto;
+    margin-right: auto;
+    margin-bottom:3px;
+    font-size: 13px;
+
+}
+
+ul {
+	border-radius:20px;
+	margin:2px;
+    
+}
+li {
+	list-style-type:none;
+	height:.15in;
+	border-bottom:#CCC 1px solid;
+	font-size:12px;
+	color:black;
+	padding:18px;
+    text-align: center;
+    
+}
+
+ li:first-child {
+   
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+}
+
+section#spiritTitle li:first-child {
+    font-size: 30px;
+    padding-top: 25px;
+    padding-bottom: 40px;
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+}
+
+
+
+li:last-child {
+  
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+	border-bottom:none;
+}
+
